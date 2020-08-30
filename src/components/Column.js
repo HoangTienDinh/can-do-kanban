@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./Card";
+import Task from "./Task";
 import Container from "@material-ui/core/Container";
 import { Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
@@ -24,8 +24,7 @@ const Column = () => {
       style={{ border: "1px solid" }}
     >
       <Typography>INSERT TITLE HERE</Typography>
-      I am going to be a column
-      <Card />
+      <Task />
     </Container>
   );
 };
