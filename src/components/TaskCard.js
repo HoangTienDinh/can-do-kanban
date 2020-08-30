@@ -4,7 +4,7 @@ import { CardContent, Typography } from "@material-ui/core";
 
 // Each card will be a task, written with text (and images?)
 // Has drag and drop functionality
-const Task = () => {
+const TaskCard = () => {
   return <div>
     <Card style={{border: '1px solid'}}>
       <CardContent>
@@ -16,4 +16,4 @@ const Task = () => {
   </div>;
 };
 
-export default Task;
+export default TaskCard;

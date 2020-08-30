@@ -1,6 +1,7 @@
 import React from "react";
-import Task from "./Task";
+import Task from "./TaskCard";
 import Container from "@material-ui/core/Container";
+import AddTaskCard from './AddTaskCard'
 import { Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -14,7 +15,7 @@ const useStyles = makeStyles({
 // Each Column will have a title
 // A scrollable body of cards
 // AddCard comp button
-const Column = () => {
+const Column = ({ title }) => {
   const classes = useStyles();
 
   return (
@@ -23,7 +24,8 @@ const Column = () => {
       maxWidth="xs"
       style={{ border: "1px solid" }}
     >
-      <Typography>INSERT TITLE HERE</Typography>
+      <Typography>{title}</Typography>
+      <AddTaskCard />
       <Task />
       <Task />
 
