@@ -1,6 +1,8 @@
 import React from "react";
 import Card from "./Card";
 import Container from "@material-ui/core/Container";
+import { Typography } from "@material-ui/core";
+
 
 // Each Column will have a title
 // A scrollable body of cards
@@ -8,6 +10,7 @@ import Container from "@material-ui/core/Container";
 const Column = () => {
   return (
     <Container maxWidth='xs' style={{ border: '1px solid'}}>
+        <Typography>INSERT TITLE HERE</Typography>
       I am going to be a column
       <Card />
     </Container>
