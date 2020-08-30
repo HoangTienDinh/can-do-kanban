@@ -25,6 +25,8 @@ const Column = () => {
     >
       <Typography>INSERT TITLE HERE</Typography>
       <Task />
+      <Task />
+
     </Container>
   );
 };

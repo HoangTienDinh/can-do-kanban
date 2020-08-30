@@ -18,13 +18,6 @@ const App = () => {
         <Column />
         <Column />
         <Column />
-        <Column />
-        <Column />
-        <Column />
-        <Column />
-        <Column />
-        <Column />
-        <Column />
 
         <AddColumn />
       </Grid>
