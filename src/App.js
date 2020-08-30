@@ -16,6 +16,11 @@ const App = () => {
         alignItems="center"
       >
         <Column />
+        <Column />
+        <Column />
+        <Column />
+        <Column />
+
         <AddColumn />
       </Grid>
     </>
